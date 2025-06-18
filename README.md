@@ -1,4 +1,3 @@
-# face-number-plate-detection
 # 🚘 Real-Time Face and Indian Number Plate Recognition
 
 A Python-based real-time system for recognizing faces and reading **Indian vehicle number plates** using:
