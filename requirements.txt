@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.15.0
+facenet-pytorch
+opencv-python
+easyocr
+ultralytics>=8.0.0
+pillow
+scikit-learn
+numpy
