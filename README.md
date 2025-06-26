@@ -17,15 +17,15 @@ A Python-based real-time system for recognizing faces and reading **Indian vehic
 ```
 
 project/
-├── license\_plate\_detector.pt       # YOLOv8 model for plates
+├── license_plate_detector.pt       # YOLOv8 model for plates
 ├── yolov8n-face.pt                 # YOLOv8 model for faces
-├── known\_faces/                   # Folder with known face images
+├── known_faces                     # Folder with known face images
 │   ├── user1.jpg
 │   └── ...
 ├── main.py                         # Combined face + plate recognition script
 ├── log.db                          # SQLite DB (auto-created)
-├── view\_logs.py                    # Script to export logs as CSV
-├── access\_log.csv                  # CSV output of logs
+├── view_logs.py                    # Script to export logs as CSV
+├── access_log.csv                  # CSV output of logs
 └── README.md
 
 ````
@@ -62,12 +62,12 @@ Place them in your project directory.
 
 ## 🚀 Usage
 
-### 1. Prepare `known_faces/`
+### 1. Prepare `known_faces`
 
-Add clear front-facing images to the `known_faces/` folder. Filenames will be used as the person's name:
+Add clear front-facing images to the `known_faces` folder. Filenames will be used as the person's name:
 
 ```
-known_faces/
+known_faces
 ├── user1.jpg      → name: "user1"
 ├── user2.png       → name: "user2"
 ```
