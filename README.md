@@ -1,3 +1,5 @@
+This project enables real-time mapping of vehicle license plates to corresponding driver faces and automated recognition using state-of-the-art computer vision and OCR techniques.
+
 # 🚘 Real-Time Face and Indian Number Plate Recognition
 
 A Python-based real-time system for recognizing faces and reading **Indian vehicle number plates** using:
@@ -18,7 +20,7 @@ project/
 ├── license\_plate\_detector.pt       # YOLOv8 model for plates
 ├── yolov8n-face.pt                 # YOLOv8 model for faces
 ├── known\_faces/                   # Folder with known face images
-│   ├── aditya.jpg
+│   ├── user1.jpg
 │   └── ...
 ├── main.py                         # Combined face + plate recognition script
 ├── log.db                          # SQLite DB (auto-created)
