@@ -1,4 +1,4 @@
-This project enables real-time mapping of vehicle license plates to corresponding driver faces and automated recognition using state-of-the-art computer vision and OCR techniques.
+🔗 Real-time face-to-plate mapping and recognition using YOLOv8, FaceNet, and EasyOCR—linking each detected driver to their vehicle’s license plate in one seamless pipeline.
 
 # 🚘 Real-Time Face and Indian Number Plate Recognition
 
